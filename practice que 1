@@ -1,0 +1,32 @@
+Print "lowercase" if user enters a character between 'a-z' , Print "UPPERCASE" is character lies between 'A-Z' and print "Invalid" for all other characters like $,.^# etc.
+
+
+Solution
+
+#include <iostream>
+#include <bits/stdc++.h>
+#include <string>
+
+
+using namespace std;
+
+int main()
+{
+  char ch;
+  cin>>ch;
+ 
+		if(ch>='a' && ch<='z')
+		{
+			cout<<"lowercase"<<endl;
+		}
+		else
+			if(ch>='A' && ch<='Z')
+				{
+				cout<<"UPPERCASE"<<endl;
+				}
+			else
+				cout<<"invalid"<<endl;
+
+   
+   return 0;
+}
